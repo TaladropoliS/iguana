@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 100%;
+}
+
+article {
+    display: flex;
+}
+.descripcion {
+    align-items: flex-start;
+    width: 50%;
+    text-align: justify;
+    color: white;
+    padding: 20px;
+}
+
+.imagen2 {
+    width: 50%;
+    align-items: flex-end;
+    background-size: 90% 90%;
+    padding: 30px;
+}
+
+.imagen2 img {
+    max-height: 399px;
+    background-size: cover;
+    padding: 30px;
+}
+
+section #caracteristicas{
+    background-color: #1e1a13;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 100%;
+}
+
+
