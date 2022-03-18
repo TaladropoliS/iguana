@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,8 +17,8 @@
 </header>
 <div class="fotoHeader"></div>
 
-<article>
-    <div class="descripcion">
+<article id="descripcionFoto">
+    <div id="descripcion">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur consectetur
             consequuntur, cumque ea eaque error eum excepturi exercitationem, fuga harum in istelabore
             laboriosam magnam magni nihil nisi nobis nulla
@@ -46,12 +48,45 @@
 </article>
 
 <section id="caracteristicas">
-    <h1>CARACTERISTICAS</h1>
+    <h1>CARACTERÍSTICAS</h1>
+    <article>
+        <figure id="figure1">
+            <i class="far fa-eye fa-3x"></i>
+            <p>Tercer Ojo</p>
+        </figure>
+        <figure id="figure2">
+            <i class="fas fa-hand-peace fa-3x"></i>
+            <p>Pacificas</p>
+        </figure>
+        <figure id="figure3">
+            <i class="fas fa-paintbrush fa-3x"></i>
+            <p>Cambian de color</p>
+        </figure>
+    </article>
 </section>
 
 <section id="fotos">
-    <h1>CARACTERISTICAS</h1>
+    <figure>
+        <img src="assets/img/iguana-2.jpg" alt="iguana 1">
+    </figure>
+    <figure>
+        <img src="assets/img/iguana-3.jpg" alt="iguana 2">
+    </figure>
+    <figure>
+        <img src="assets/img/iguana-4.jpg" alt="iguana 3">
+    </figure>
 </section>
+
+<footer>
+    <div id="footer">
+        <p>Visita
+            <a class="linkFooter" target="_blank"
+               href="https://www.anipedia.net/iguanas/iguana-verde/">
+                https://www.anipedia.net/iguanas/iguana-verde/
+            </a>
+            para conocer más</p>
+    </div>
+</footer>
 
 <script src="assets/libs/fontawesome/all.min.js"></script>
 </body>
