@@ -1,3 +1,6 @@
+* {
+    border: red 2px solid;
+}
 body {
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
@@ -20,6 +23,7 @@ header img {
     display: inline-flex;
     text-align: center;
     margin: 0;
+    padding: 0;
     width: 100%;
 }
 
@@ -56,12 +60,12 @@ header img {
     background-color: #1e1a13;
     color: #ffffff;
     text-align: center;
-    padding: 30px;
     height: 100%;
     width: 100%;
 }
 
 #caracteristicas > h2 {
+    padding-top: 30px;
     margin-bottom: 50px;
     font-weight: normal;
 }
