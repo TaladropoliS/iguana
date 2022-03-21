@@ -1,6 +1,6 @@
-/** {*/
-/*    border: red 1px solid;*/
-/*}*/
+* {
+    border: red 1px solid;
+}
 
 body {
     background-color: #000000;
@@ -83,16 +83,17 @@ header img {
 
 #div-fotos {
     width: 100%;
-    /*display: flex;*/
     text-align: center;
     justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #div-fotos > figure {
     display: inline-block;
     width: 28%;
     margin: 0;
-    padding: 2em;
+    padding: 5px;
     justify-content: center;
 }
 
